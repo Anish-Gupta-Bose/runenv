@@ -10,7 +10,7 @@ docker build -t runenv:latest .
 # Run
 
 ```
-alias runenv="docker run --rm --name ubuntu -it -v ~/workspace:/workspace -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws runenv:latest"
+alias runenv="docker run --rm --name runenv -it -v ~/workspace:/workspace -v ~/.ssh:/root/.ssh -v ~/.aws:/root/.aws runenv:latest"
 ```
 
 *Note -  replace workspace and ssh paths with the paths in your setup*

@@ -1,0 +1,5 @@
+python-gilt
+ansible<2.6
+boto
+jmespath
+netaddr
